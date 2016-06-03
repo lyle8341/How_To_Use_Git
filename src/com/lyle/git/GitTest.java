@@ -10,7 +10,7 @@ public class GitTest {
 		System.out.println("java");
 	}
 	
-	public void remote(){
-		
+	public String remote(){
+		return null;
 	}
 }
