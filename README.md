@@ -35,6 +35,9 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 	2.git status---->发现有个Untracked files:src/com/lyle/git/HelloGit.java
 	3.git gui---->重新扫描---->缓存改动---->输入提交描述---->提交---->上传
 	
+六、删除本地文件
+	
+	1.本地和远程当前是同步状态，删除本地文件
 	
 	
 	
