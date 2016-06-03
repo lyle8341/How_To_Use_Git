@@ -11,6 +11,6 @@ public class GitTest {
 	}
 	
 	public String remote(){
-		return null;
+		return "hello";
 	}
 }
