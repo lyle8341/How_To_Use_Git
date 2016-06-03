@@ -41,7 +41,7 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 	2.git status---->发现有个 deleted:src/com/lyle/git/TestLocalDelete.java
 	3.git gui---->重新扫描---->缓存改动(通过点击文件图标进行选中或不选)---->输入提交描述---->提交---->上传
 	
-七、选择提交/上传
+七、修改多个文件时选择提交/上传
 
 	1.同时修改两个文件HelloGit.java和GitTest.java
 	2.git status---->modified:src/com/lyle/git/GitTest.java modified:src/com/lyle/git/HelloGit.java
@@ -61,6 +61,5 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 	3.git pull How_To_Use_Git master---->此时GitTest.java文件的内容包括远端和本地的还有冲突的符号=====、>>>>>>>、<<<<<<< HEAD符号。
 	4.解决冲突，删除不需要的代码和符号
 	5.git gui---->重新扫描---->缓存改动(通过点击文件图标进行选中或不选)---->输入提交描述---->提交---->上传
-	
 	
 备注：使用Git bash和Git Gui结合，目的是让人更加直观，明了掌握git的使用
