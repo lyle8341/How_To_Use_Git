@@ -21,7 +21,7 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 	2.右键-打开Git Gui---->远端---->add---->location---->输入步骤二中复制的ssh地址和远程仓库的名字How_To_Use_Git---->add
 	3.在项目根目录下打开Git bash命令窗口---->git pull把远程仓库的LICENSE文件拉下来
 	4.git status查看有哪些文件可以提交
-	5.
+	5.在Git Gui窗口---->缓存改动---->填写提交描述---->提交---->上传
 	
 
 	
