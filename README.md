@@ -27,6 +27,7 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 
 	1.修改readme文件
 	2.git bash---->git status---->可以看见modified: README.md
+	3.git gui---->重新扫描---->缓存改动---->输入提交描述---->提交---->上传
 	
 	
 	
