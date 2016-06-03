@@ -46,7 +46,7 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 	1.同时修改两个文件HelloGit.java和GitTest.java
 	2.git status---->modified:src/com/lyle/git/GitTest.java 
 				  modified:src/com/lyle/git/HelloGit.java
-	3.git gui---->重新扫描---->缓存改动---->此时已缓存的改动(将被提交)有两个文件HelloGit.java和GitTest.java---->通过点击文件图标进行选中和放弃
+	3.git gui---->重新扫描---->缓存改动---->此时已缓存的改动(将被提交)有两个文件HelloGit.java和GitTest.java---->通过点击文件图标进行选中或不选----输入提交描述---->提交---->上传
 
 
 	
