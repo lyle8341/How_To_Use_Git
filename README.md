@@ -49,10 +49,10 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 
 八、冲突
 
-	1.在远程仓库修改
-
-	
-	
+	1.直接在远程仓库修改GitTest.java文件
+	2.本地修改readme文件
+	3.git status---->modified:README.md
+	4.git gui---->重新扫描---->
 	
 	
 	
