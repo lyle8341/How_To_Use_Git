@@ -69,6 +69,7 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 	3.
 	
 十、忽略已经被github管理的文件
+
 	1.git rm --cached xx/yy/a.java
 	2.修改.gitignore文件，添加需要忽略的文件
 
