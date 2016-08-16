@@ -13,7 +13,7 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 
 	1.首先需要有github账号
 	2.New repository(本人创建仓库时候使用了LICENSE)
-	3.复制仓库地址(How_To_Use_Git---->Clone or download---->复制ssh地址或者https地址)]
+	3.复制仓库地址(How_To_Use_Git---->Clone or download---->复制ssh地址或者https地址)
 	
 三、上传项目
 
@@ -67,5 +67,9 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 	1.待续。。。
 	2.
 	3.
+	
+十、忽略已经被github管理的文件
+	1.git rm --cached xx/yy/a.java
+	2.修改.gitignore文件，添加需要忽略的文件
 
 备注：使用Git bash和Git Gui结合，目的是让人更加容易掌握git的使用
