@@ -73,4 +73,17 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 	1.git rm --cached xx/yy/a.java
 	2.修改.gitignore文件，添加需要忽略的文件
 
+十一、删除本地文件，如何恢复
+
+	Ⅰ情景1
+	1.本地删除，没有缓存，提交等：git checkout  -- Test.java  【git checkout -- file；撤销对工作区修改】
+	Ⅱ情景2
+	2.本地删除并且缓存： git reset HEAD Test.java 【git reset HEAD -- file；清空add命令向暂存区提交的关于file文件的修改（Ustage）】
+	Ⅲ情景3
+	3.本地删除并且提交： git checkout 0eb98179833e1fe885fa420867227d9eae11d854 Test.java【在Test.java所在路径下执行】
+	Ⅳ情景4
+	4.直接用远端覆盖更新本地：首先pull最新的远端，然后 git checkout ORIG_HEAD   -- Test.java【在Test.java文件路径下】
+
+
+
 备注：使用Git bash和Git Gui结合，目的是让人更加容易掌握git的使用
