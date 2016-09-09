@@ -92,6 +92,4 @@ doc/*.txt # 忽略文件如doc/notes.txt，但是文件如doc/server/arch.txt不
 	Ⅳ情景4
 	4.直接用远端覆盖更新本地：首先pull最新的远端，然后 git checkout ORIG_HEAD   -- Test.java【在Test.java文件路径下】
 
-
-
 备注：使用Git bash和Git Gui结合，目的是让人更加容易掌握git的使用
