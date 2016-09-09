@@ -73,14 +73,14 @@ Git的使用(以下步骤是在安装了Git客户端并且配置了SSH)
 	1.git rm --cached xx/yy/a.java
 	2.修改.gitignore文件，添加需要忽略的文件
 	3.可以用通配符，如：
-	```
-	# 这是注释行，将被忽略
-	*.a       # 忽略所有以.a为扩展名的文件    
-	!lib.a    # 但是名为lib.a的文件或目录不要忽略，即使前面设置了对*.a的忽略
-	/TODO     # 只忽略此目录下的TODO文件，子目录中的TODO文件不忽略
-	build/    # 忽略所有build目录下的文件，但如果是名为build的文件则不忽略
-	doc/*.txt # 忽略文件如doc/notes.txt，但是文件如doc/server/arch.txt不忽略
-	```
+```
+# 这是注释行，将被忽略
+*.a       # 忽略所有以.a为扩展名的文件    
+!lib.a    # 但是名为lib.a的文件或目录不要忽略，即使前面设置了对*.a的忽略
+/TODO     # 只忽略此目录下的TODO文件，子目录中的TODO文件不忽略
+build/    # 忽略所有build目录下的文件，但如果是名为build的文件则不忽略
+doc/*.txt # 忽略文件如doc/notes.txt，但是文件如doc/server/arch.txt不忽略
+```
 十一、删除本地文件，如何恢复
 
 	Ⅰ情景1
